@@ -1,0 +1,26 @@
+{
+  "name": "<%= moduleName %>",
+  "version": "0.0.1",
+  "description": "",
+  "license": "MIT",
+  "repository": "davidicus/<%= moduleName %>",
+  "keywords": [
+    "files"
+  ],
+  "bugs": {
+    "url": "https://github.com/davidicus/<%= moduleName %>/issues"
+  },
+  "homepage": "https://github.com/davidicus/<%= moduleName %>#readme",
+  "author": "David Conner <david@david-conner.com> (http://david-conner.com)",
+  "engines": {
+    "node": ">=8.9.6"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
+}
